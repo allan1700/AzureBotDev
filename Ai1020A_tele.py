@@ -17,7 +17,7 @@ import joblib
 log = logging.getLogger(__name__)
 
 loop = asyncio.get_event_loop()
-bot = Bot(token='1698750057:AAEIQrs1uv4lpZTGnxRKoHjiP2snm8Ic5dw') #"1758631589:AAGafSEuluOYuj-jXcxKfb8jQRmUeMm5Rj8")
+bot = Bot(token='1719754261:AAHJ4xFaNYM-U-RQ1vTuwIZUI_ITtKPSM_E') #"1758631589:AAGafSEuluOYuj-jXcxKfb8jQRmUeMm5Rj8")
 dp = Dispatcher(bot, loop)
 
 @dp.message_handler(commands= ['start'])
